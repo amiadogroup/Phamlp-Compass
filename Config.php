@@ -17,21 +17,21 @@
 class Compass_Config {
 	public static $config;
 	private static $defaultConfig = array(
-						 'project_path' => '',
-								'http_path' => '/',
-									'css_dir' => 'css',
-								 'css_path' => '',
-						'http_css_path' => '',
-								'fonts_dir' => 'fonts',
-							 'fonts_path' => '',
-					'http_fonts_path' => '',
-							 'images_dir' => 'images',
-							'images_path' => '',
-				 'http_images_path' => '',
-					'javascripts_dir' => 'javascripts',
-				 'javascripts_path' => '',
+		'project_path' => '',
+		'http_path' => '/',
+		'css_dir' => 'css',
+		'css_path' => '',
+		'http_css_path' => '',
+		'fonts_dir' => 'fonts',
+		'fonts_path' => '',
+		'http_fonts_path' => '',
+		'images_dir' => 'images',
+		'images_path' => '',
+		'http_images_path' => '',
+		'javascripts_dir' => 'javascripts',
+		'javascripts_path' => '',
 		'http_javascripts_path' => '',
-					'relative_assets' => true,
+		'relative_assets' => true,
 	);
 	
 	/**
