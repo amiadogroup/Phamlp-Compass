@@ -40,6 +40,6 @@ class Compass_Extension extends Phamlp_Sass_Extension {
          * @return array
          */
         public function getFunctionsPaths() {
-                return array('Compass_Function_' => realpath(dirname(__FILE__).DIRECTORY_SEPARATOR.'lib'.DIRECTORY_SEPARATOR.'frameworks'.DIRECTORY_SEPARATOR.'Function'));
+                return array('Compass_Function_' => realpath(dirname(__FILE__).DIRECTORY_SEPARATOR.'Function'));
         }
 }
