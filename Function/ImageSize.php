@@ -28,7 +28,7 @@ class Compass_Function_ImageSize {
 		return new Phamlp_Sass_Script_Literal_Number($image_size[1].'px');
 	}
 
-	private function real_path($image_file) {
+	protected function real_path($image_file) {
 		$path = $image_file->value;
 		# Compute the real path to the image on the file stystem if the images_dir is set.
 		if (Compass_Config::config('images_path'))
