@@ -15,16 +15,20 @@
  */
 class Compass_Function_CrossBrowser {
         public static function _webkit() {
-                return self::hack('webkit', func_get_args());
+                $args = func_get_args();
+                return self::hack('webkit', $args);
         }
         public static function _o() {
-                return self::hack('o', func_get_args());
+                $args = func_get_args();
+                return self::hack('o', $args);
         }
         public static function _owg() {
-                return self::hack('owg', func_get_args());
+                $args = func_get_args();
+                return self::hack('owg', $args);
         }
         public static function _ms() {
-                return self::hack('ms', func_get_args());
+                $args = func_get_args();
+                return self::hack('ms', $args);
         }
         
         /**
